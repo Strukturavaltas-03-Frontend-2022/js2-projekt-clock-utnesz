@@ -10,7 +10,7 @@ const showTime = () => {
     document.getElementById("hours").innerHTML = hour;
     document.getElementById("min").innerHTML = min;
     document.getElementById("sec").innerHTML = sec; 
-    setInterval(showTime, 1000)
+    
 }
-
+setInterval(showTime, 1000)
 showTime();

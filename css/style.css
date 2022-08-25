@@ -3,26 +3,26 @@
     src: url(/fonts/Cyberverse.otf);
 }
 
+
+
 body {
     background-color: #a9a9a9;
-    margin: 0;
     padding: 0;
+    margin: 0;
+
 }
 
 .clock_container {
     box-sizing: border-box;
-    border: 1px, solid, #fff;
-    margin: 30% 25%;
+    align-items: center;
     border-radius: 1rem;
     position: relative;
     display:inline-block;
     align-items: center;
-    padding: 2%;
-    width: 50%;
-    height: 50%;
+    width: 360px;
     background-color: #000000;
     color: #ffffff;
-
+    margin: 30% 35% 30%;
     
 
 }
@@ -33,25 +33,24 @@ body {
     box-sizing: border-box;
     float: left;
     color: #fff;
-    font-size: 200%;
+    font-size: 300%;
     position: relative;
     display: flexbox;
     width: 32%;
-    height: 100%;
-    padding: 5px 5px 5px 20px;
+    padding: 10px 10px 10px 10px;
 }
 
 .clock_box_ {
-    text-align: left;
+    text-align: center;
     font-family: Cyberverse Bold;
     box-sizing: border-box;
     float: left;
     color: #fff;
-    font-size: 200%;
+    font-size: 300%;
     position: relative;
     display: grid;
+    padding: 5px 0 10px 0;
     width: 2%;
-    height: 100%;
 
 }
 
