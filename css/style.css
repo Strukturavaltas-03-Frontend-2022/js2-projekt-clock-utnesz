@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Cyberverse bold;
+    src: url(/fonts/Cyberverse.otf);
+}
+
+body {
+    background-color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+
+.clock_container {
+    box-sizing: border-box;
+    border: 1px, solid, #fff;
+    margin: 30% 25%;
+    border-radius: 1rem;
+    position: relative;
+    display:inline-block;
+    align-items: center;
+    padding: 2%;
+    width: 50%;
+    height: 50%;
+    background-color: #000000;
+    color: #ffffff;
+
+    
+
+}
+
+.clock_box {
+    text-align: center;
+    font-family: Cyberverse Bold;
+    box-sizing: border-box;
+    float: left;
+    color: #fff;
+    font-size: 200%;
+    position: relative;
+    display: flexbox;
+    width: 32%;
+    height: 100%;
+    padding: 5px 5px 5px 20px;
+}
+
+.clock_box_ {
+    text-align: left;
+    font-family: Cyberverse Bold;
+    box-sizing: border-box;
+    float: left;
+    color: #fff;
+    font-size: 200%;
+    position: relative;
+    display: grid;
+    width: 2%;
+    height: 100%;
+
+}
+
+
